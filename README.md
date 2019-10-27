@@ -34,6 +34,7 @@ reading + writing code.
 
 ## Setup
 
+
 First, install npm (the Node Package Manager, which comes bundled with [Node](https://nodejs.org/en/)). On macOS, I recommend you install using [Homebrew](https://brew.sh/). 
 
 ```
@@ -53,3 +54,14 @@ npm start
 ```
 
 Try it!
+
+## Development Environment
+
+A good development environment is clutch for working effectively. 
+
+You likely have your own setup / preferences here. For reference - I am currently
+using [VSCode](https://code.visualstudio.com/), an open-source Micro$oft project 
+with a ton of usability / speed / extensibility. 
+
+[Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) is 
+a decent dark theme.
