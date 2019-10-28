@@ -7,7 +7,7 @@ import Board from './components/Board.jsx';
 function App() {
   return (
     <div className="App">
-      <Board />
+      <Board title="Rapid Prototyping React"/>
     </div>
   );
 }
