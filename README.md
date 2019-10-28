@@ -1,8 +1,21 @@
 # Rapid Prototyping
 
-Minimizing friction between design, prototyping, and production is crucial for 
-quickly iterating on and testing out your ideas. Let's learn some techniques
-to facilitate this process!
+The faster the prototyping loop, the faster you can test ideas, the better your
+results will be. This repo demonstrates techniques for quickly iterating
+on a [Trello](https://trello.com)-like task management clone in [React](https://reactjs.org).
+
+## Quickstart
+
+```
+git clone https://github.com/lavell-xyz/rapid-prototyping-react.git
+cd rapid-prototyping-react/proto-app
+npm install 
+npm start
+```
+
+Point your browser to ```localhost:3000``` and view the live-reloading
+app! 
+
 
 ## React
 
@@ -21,16 +34,7 @@ those components into bigger pieces of functionality, and finally into a complet
 This facilitates not only modularity in the code, but also focused communication between
 developers and designers.
 
-## Conventions
-
-Good conventions help structure code and minimize unnecessary cognitive load for
-reading + writing code.
-
-- For React / JS, we'll be following: [Airbnb's React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
-- For git commits, I follow [Isle of Code's Git Style Guide](https://github.com/isleofcode/style-guide/blob/master/commit-style-guides.md)
-
-## Setup
-
+##  Dependencies
 
 First, install npm (the Node Package Manager, which comes bundled with [Node](https://nodejs.org/en/)). On macOS, I recommend you install using [Homebrew](https://brew.sh/). 
 
@@ -42,28 +46,30 @@ Windows users - you can download directly from [nodejs.org](https://nodejs.org/e
 
 Linux - use your distro's package manager, of course!
 
-I used the [Create React App Script](https://github.com/facebook/create-react-app) to bootstrap a new react project. This uses npx, which is installed automatically with npm 5.2 and higher.
-I called the project "proto-app". Here was the code for that:
+Once node/npm is installed, follow the Quickstart.
+
+## Starting from Scratch
+
+If you want to follow along with the project, and make your own version
+from scratch:
+
+First, install the Dependencies. Then, use the [Create React App Script](https://github.com/facebook/create-react-app) to bootstrap a new react project. This utilizes npx, which is installed automatically with npm 5.2 and higher.
 
 ```
 npx create-react-app proto-app
 ```
 
-If you're pulling the latest, that has command has already been 
-run, and the proto-app files were checked into the repo. 
-What was not checked in were the node_modules - those are in 
-the gitignore. To initialize the project, 
+From there, follow the Quickstart and you will be good to go.
 
-```
-cd proto-app
-npm install
-```
 
-This will download everything you need to get it running. From there,
+## Conventions
 
-```
-npm start
-```
+Good conventions help structure code and minimize unnecessary cognitive load for
+reading + writing code.
+
+- For React / JS, we'll be following: [Airbnb's React/JSX Style Guide](https://github.com/airbnb/javascript/tree/master/react)
+- For git commits, I follow [Isle of Code's Git Style Guide](https://github.com/isleofcode/style-guide/blob/master/commit-style-guides.md)
+
 
 ## Development Environment
 
@@ -77,8 +83,6 @@ with a ton of usability / speed / extensibility.
 a decent dark theme.
 
 ## The Prototype
-
-Let's prototype a kanban board (i.e. something akin to [Trello](https://trello.com)).
 
 Let's consider a simplified model for now. Our main components are
 Card (where you write out tasks), CardList (where cards go), and Board (where CardLists go).
