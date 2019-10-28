@@ -1,7 +1,3 @@
-*Note: This repository's commits are designed to evolve the process step-by-step,
-so you can follow along, starting from the beginning or jumping in
-at a point of interest.* 
-
 # Rapid Prototyping
 
 Minimizing friction between design, prototyping, and production is crucial for 
