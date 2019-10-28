@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Card from './components/Card.jsx';
 import CardList from './components/CardList.jsx'
 
@@ -11,7 +11,7 @@ function App() {
         title="Todo"
         cards={
           [
-            <Card title="Style the layout" />,
+            <Card title="Lay out columns horizontally" />
           ]
         }
       />
@@ -19,6 +19,8 @@ function App() {
         title="Done"
         cards={
           [
+            <Card title="Basic layout styling" />,
+            <Card title="Configure Sass" />,
             <Card title="Test on Linux" />,
             <Card title="Get VS Code up and runnning" />,
             <Card title="Get basic component structure" />,

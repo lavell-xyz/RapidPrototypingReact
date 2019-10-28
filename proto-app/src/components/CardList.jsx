@@ -1,9 +1,10 @@
 import React from 'react';
+import './CardList.scss';
 
 function CardList(props) {
   return (
     <div className="CardList"> 
-      <h2>{props.title}</h2>
+      <h1>{props.title}</h1>
       <ul>
         {
           props.cards.map((value) => {
