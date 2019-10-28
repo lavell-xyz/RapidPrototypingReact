@@ -81,7 +81,7 @@ a decent dark theme.
 Let's prototype a kanban board (i.e. something akin to [Trello](https://trello.com)).
 
 Let's consider a simplified model for now. Our main components are
-Cards (where you write out tasks) and CardLists (where cards go).
+Card (where you write out tasks), CardList (where cards go), and Board (where CardLists go).
 
 _Note: I would have called them Lists, if that weren't such
 an overloaded term already. CardList is a bit of a clunky name,
