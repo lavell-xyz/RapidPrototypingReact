@@ -13,8 +13,8 @@ npm install
 npm start
 ```
 
-Point your browser to ```localhost:3000``` and view the live-reloading
-app! 
+Your browser will be automatically redirected to ```localhost:3000```, where
+you can view the live-reloading app!
 
 
 ## React

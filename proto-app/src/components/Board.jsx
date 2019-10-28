@@ -12,7 +12,10 @@ function Board(props) {
           title="Todo"
           cards={
             [
-              <Card title="Simplify README to get people started quickly" />,
+              <Card title="Implement UI for adding / editing cards" />,
+              <Card title="Implement drag and drop" />,
+              <Card title="Integrate a real data model" />,
+              <Card title="Flesh out the tutorial in the README" />,
             ]
           }
         />
@@ -20,6 +23,7 @@ function Board(props) {
           title="Done"
           cards={
             [
+              <Card title="Simplify README to get people started quickly" />,
               <Card title="Lay out columns horizontally" />,
               <Card title="Refactor to Board component" />,
               <Card title="Basic layout styling" />,
