@@ -8,7 +8,7 @@ on a [Trello](https://trello.com)-like task management clone in [React](https://
 
 ```
 git clone https://github.com/lavell-xyz/rapid-prototyping-react.git
-cd rapid-prototyping-react/proto-app
+cd rapid-prototyping-react
 npm install 
 npm start
 ```
@@ -47,20 +47,6 @@ Windows users - you can download directly from [nodejs.org](https://nodejs.org/e
 Linux - use your distro's package manager, of course!
 
 Once node/npm is installed, follow the Quickstart.
-
-## Starting from Scratch
-
-If you want to follow along with the project, and make your own version
-from scratch:
-
-First, install the Dependencies. Then, use the [Create React App Script](https://github.com/facebook/create-react-app) to bootstrap a new react project. This utilizes npx, which is installed automatically with npm 5.2 and higher.
-
-```
-npx create-react-app proto-app
-```
-
-From there, follow the Quickstart and you will be good to go.
-
 
 ## Conventions
 
